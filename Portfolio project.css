@@ -1,0 +1,128 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+button {
+   border: none;
+}
+
+.container {
+    height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.s-evenly {
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(232, 224, 224, 0.99);
+    position: relative;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.fa-kaggle {
+    color: #050509;
+    font-size: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar {
+    background-color: black;
+    /*flex: 1;*/
+    color: #cecbcb;
+    justify-content: space-between;
+    padding: 20px;
+    width: 200px;
+
+
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.fa-facebook-f {
+    color: #297adb;
+    margin: 10px;
+}
+
+.fa-twitter {
+    color: #297adb;
+    margin: 10px;
+}
+
+.fa-google-plus-g {
+    color: #d92c2c;
+    margin: 10px;
+}
+
+
+.orange:hover {
+    color: #e27740;
+    cursor: pointer;
+}
+
+
+.mainImage {
+    height: 100%;
+    /*width: 700%;*/
+    /*flex: 6;*/
+    display: flex;
+}
+
+.border-b {
+    border-bottom: 1px solid #c6c3c3;
+    width: 100%;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+
+}
+
+.icons-s-btw {
+    justify-content: space-between;
+}
+
+.nextBackground {
+    /*flex: 4;*/
+    background-color: darkgrey;
+}
+
+
+
+
+.img-main {
+    background-image: url("https://miro.medium.com/max/1080/1*jWx9suY2k3Ifq4B8A_vz9g.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.box-size {
+    width: 800px;
+    height: 100%;
+}
